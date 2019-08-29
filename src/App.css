@@ -19,6 +19,10 @@
   color: white;
 }
 
+.kart{
+  animation: kart-move infinite 1s linear;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -30,4 +34,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes kart-move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  /* from{
+    left: -10000px;
+  }
+  to {
+    left: 0px;
+  } */
 }
